@@ -1,0 +1,17 @@
+# deepin23 ci sources (unstable)
+deb [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/Develop:/main/standard/ ./
+deb-src [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/Develop:/main/standard/ ./
+deb [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/Develop:/community/deepin_develop/ ./
+deb-src [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/Develop:/community/deepin_develop/ ./
+deb [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/Develop:/dde/deepin_develop/ ./
+deb-src [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/Develop:/dde/deepin_develop/ ./
+deb [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/GPL:/Rust/standard/ ./
+deb-src [trusted=yes] https://ci.deepin.com/repo/obs/deepin:/GPL:/Rust/standard/ ./
+deb [trusted=yes] https://ci.deepin.com/repo/deepin/deepin-community/obs-repos/ kernel main
+deb-src [trusted=yes] https://ci.deepin.com/repo/deepin/deepin-community/obs-repos/ kernel main
+
+## Backup for deepin non-free sources 
+# deepin-app-store
+# deb https://com-store-packages.uniontech.com/appstorev23 beige appstore
+# dde-printer
+# deb https://community-packages.deepin.com/driver-23/ driver non-free

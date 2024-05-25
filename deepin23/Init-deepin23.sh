@@ -53,7 +53,7 @@ sudo flatpak update -vy && sudo flatpak install flathub org.gtk.Gtk3theme.deepin
 sudo flatpak install com.github.tchx84.Flatseal\
                  io.github.cboxdoerfer.FSearch io.github.peazip.PeaZip io.github.prateekmedia.appimagepool io.github.shiftey.Desktop\
                  io.missioncenter.MissionCenter\
-                 org.gnome.Boxes org.gnome.Logs org.kde.falkon org.kde.kdiff3 org.kde.kommit
+                 org.gnome.Boxes org.gnome.Logs org.kde.falkon org.kde.kdiff3 org.kde.kommit org.onionshare.OnionShare\
                  -vy
 ## Setup snap
 sudo snap install core snapd snap-store --edge && sudo snap refresh
